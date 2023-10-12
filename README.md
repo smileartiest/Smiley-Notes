@@ -7,7 +7,6 @@ Main Goal
 3. Available Bottom sheet dialog.
 4. Available Firebase.
 5. Available MVVM Model.
-6. Available Encryption methode RSA Algoritham.
 
 Developer Contact :
 email : smileartiest@gmail.com
