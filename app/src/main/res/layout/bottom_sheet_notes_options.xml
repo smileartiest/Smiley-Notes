@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Set Priority"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/bt_sheet_priority_icon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:padding="2dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19"
+            app:srcCompat="@drawable/non_priority_icon" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/colorGray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bt_sheet_priority_icon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/bt_sheet_delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+        <TextView
+            android:id="@+id/bt_sheet_default_bg_icon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="17dp"
+            android:background="@drawable/default_round"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/bt_sheet_lightblue_bg_icon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/lightblue_round"
+            app:layout_constraintBottom_toBottomOf="@+id/bt_sheet_default_bg_icon"
+            app:layout_constraintStart_toEndOf="@+id/bt_sheet_default_bg_icon"
+            app:layout_constraintTop_toTopOf="@+id/bt_sheet_default_bg_icon" />
+
+        <TextView
+            android:id="@+id/bt_sheet_lightgreen_bg_icon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/lightgreen_round"
+            app:layout_constraintBottom_toBottomOf="@+id/bt_sheet_lightblue_bg_icon"
+            app:layout_constraintStart_toEndOf="@+id/bt_sheet_lightblue_bg_icon"
+            app:layout_constraintTop_toTopOf="@+id/bt_sheet_lightblue_bg_icon" />
+
+        <TextView
+            android:id="@+id/bt_sheet_lightyellow_bg_icon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/lightyellow_round"
+            app:layout_constraintBottom_toBottomOf="@+id/bt_sheet_lightgreen_bg_icon"
+            app:layout_constraintStart_toEndOf="@+id/bt_sheet_lightgreen_bg_icon"
+            app:layout_constraintTop_toTopOf="@+id/bt_sheet_lightgreen_bg_icon" />
+
+        <TextView
+            android:id="@+id/bt_sheet_darkyellow_bg_icon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/darkyellow_round"
+            app:layout_constraintBottom_toBottomOf="@+id/bt_sheet_lightyellow_bg_icon"
+            app:layout_constraintStart_toEndOf="@+id/bt_sheet_lightyellow_bg_icon"
+            app:layout_constraintTop_toTopOf="@+id/bt_sheet_lightyellow_bg_icon" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Set Background"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/colorGray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/bt_sheet_lighttheme_bg_icon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/light_theme_round"
+            app:layout_constraintBottom_toBottomOf="@+id/bt_sheet_darkyellow_bg_icon"
+            app:layout_constraintStart_toEndOf="@+id/bt_sheet_darkyellow_bg_icon"
+            app:layout_constraintTop_toTopOf="@+id/bt_sheet_darkyellow_bg_icon" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/bt_sheet_delete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/delete_icon"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="Delete"
+        app:layout_constraintBottom_toTopOf="@+id/bt_sheet_bin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
+    <TextView
+        android:id="@+id/bt_sheet_bin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/trash_icon"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="Move Recycle Bin"
+        app:layout_constraintBottom_toTopOf="@+id/bt_sheet_share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_sheet_delete" />
+
+    <TextView
+        android:id="@+id/bt_sheet_share"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/share_icon"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="Share"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_sheet_bin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

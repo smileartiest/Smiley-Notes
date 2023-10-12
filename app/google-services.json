@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "753324391846",
+    "firebase_url": "https://smile-artist.firebaseio.com",
+    "project_id": "smile-artist",
+    "storage_bucket": "smile-artist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753324391846:android:1528a10e2c9c41f4586367",
+        "android_client_info": {
+          "package_name": "com.smilearts.smilenotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753324391846-dr5jbsu5q94ceat7hfnl4gjrs3rg7vs0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smilearts.smilenotes",
+            "certificate_hash": "8dff880683cc0a80b33e47ef13f34147def61ee6"
+          }
+        },
+        {
+          "client_id": "753324391846-dv9co22l35oiv2pg818een60ke3i7ui1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smilearts.smilenotes",
+            "certificate_hash": "e6c0053476c4df73d9e43ac25cef3dd3c3148105"
+          }
+        },
+        {
+          "client_id": "753324391846-edcb70p9mprqhem7kang3ejqdlb77fhp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoszZZRpZ1EncEwa4xuQW-NfU7L27CYDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753324391846-edcb70p9mprqhem7kang3ejqdlb77fhp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

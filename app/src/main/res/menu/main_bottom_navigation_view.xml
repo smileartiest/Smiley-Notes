@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_bottom_nav_add_note"
+        android:title="Add Notes"
+        android:icon="@drawable/add_notes_icon"/>
+
+    <item
+        android:id="@+id/main_bottom_nav_add_check_list"
+        android:title="Add Check List"
+        android:icon="@drawable/checklist_icon_24"/>
+
+    <item
+        android:id="@+id/main_bottom_nav_setting"
+        android:title="Settings"
+        android:icon="@drawable/settings_icon"/>
+
+    <item
+        android:id="@+id/main_bottom_nav_bin"
+        android:title="Recycle Bin"
+        android:icon="@drawable/trash_icon"/>
+
+
+</menu>
